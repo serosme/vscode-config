@@ -1,0 +1,115 @@
+{
+  // 字体
+  "editor.fontSize": 18,
+  "editor.fontFamily": "'Maple Mono'",
+  // 光标动画
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorBlinking": "smooth",
+  // 垂直滚动条
+  "editor.scrollbar.vertical": "hidden",
+  // 保存
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "always"
+  },
+  // system
+  "http.proxy": "http://127.0.0.1:7890",
+  "window.restoreWindows": "none",
+  "workbench.list.smoothScrolling": true,
+  "workbench.startupEditor": "none",
+  "dev.containers.gitCredentialHelperConfigLocation": "none",
+  "dev.containers.copyGitConfig": false,
+  "debug.console.wordWrap": false,
+  "terminal.integrated.shellIntegration.decorationsEnabled": "never",
+  // Git
+  "git.alwaysShowStagedChangesResourceGroup": true,
+  "git.fetchOnPull": true,
+  "git.autoStash": true,
+  "git.autofetch": true,
+  // formatter
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[yaml]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // markdown
+  "[markdown]": {
+    "editor.fontSize": 19,
+    "editor.fontFamily": "Inconsolata, 'Noto Sans SC'",
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  // markdownlint
+  "markdownlint.config": {
+    // 具有相同内容的多个标题
+    "no-duplicate-heading": false
+  },
+  "cSpell.userWords": [
+    "alist",
+    "archlinux",
+    "archwsl",
+    "assaflavie",
+    "buildx",
+    "changeme",
+    "Chrony",
+    "chronyc",
+    "chronyd",
+    "deepseek",
+    "gitdir",
+    "iburst",
+    "kyuan",
+    "letsencrypt",
+    "makecache",
+    "makestep",
+    "mirrorlist",
+    "mysqldump",
+    "NACOS",
+    "nologo",
+    "nvim",
+    "pacman",
+    "paru",
+    "PGID",
+    "powerline",
+    "PUID",
+    "pwsh",
+    "Qwen",
+    "rclone",
+    "Redpill",
+    "Repodata",
+    "runlike",
+    "safecrlf",
+    "sealos",
+    "seros",
+    "serosme",
+    "sonatype",
+    "timedatectl",
+    "unigetui",
+    "uroot",
+    "vaultwarden",
+    "Venv",
+    "winget",
+    "xhofe"
+  ],
+  // 换行设置
+  "editor.wrappingStrategy": "advanced",
+  "http.useLocalProxyConfiguration": false,
+  "redhat.telemetry.enabled": true,
+  "workbench.secondarySideBar.defaultVisibility": "hidden",
+  // python
+  "[python]": {
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+      "source.fixAll": "explicit",
+      "source.organizeImports": "explicit"
+    },
+    "editor.defaultFormatter": "charliermarsh.ruff"
+  },
+  // 禁用和隐藏 GitHub Copilot 提供的内置 AI 功能
+  "chat.disableAIFeatures": true,
+  // 控制是否在 VS Code 内启用工作区信任
+  "security.workspace.trust.enabled": false,
+  "claudeCode.useTerminal": true,
+  "[dockercompose]": {
+    "editor.defaultFormatter": "ms-azuretools.vscode-containers"
+  }
+}
